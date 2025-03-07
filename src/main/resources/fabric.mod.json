@@ -1,15 +1,15 @@
 {
 	"schemaVersion": 1,
 	"id": "mgriefpreventr",
-	"version": "${version}",
-	"name": "mgriefpreventr",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"version": "1.0-beta1",
+	"name": "Monster Griefing Preventer 2000",
+	"description": "Adds gamerules to customise your experience with monster griefing!",
 	"authors": [
-		"Me!"
+		"Flurcie"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://x.com/Flurcie/",
+		"sources": "https://github.com/Flurcie/mgriefpreventr"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/mgriefpreventr/icon.png",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"monster.m.Mgriefpreventr"
+		],
+		"client": [
+			"monster.m.MgriefpreventrClient"
 		]
 	},
 	"mixins": [
@@ -29,6 +32,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"another-mod": "Flurcie's Mod"
 	}
 }

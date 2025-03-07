@@ -3,7 +3,10 @@
 	"package": "monster.m.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"CreeperMixin",
+		"EndermanPickUpBlockMixin",
+		"EndermanPlaceBlockMixin",
+		"GhastMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
