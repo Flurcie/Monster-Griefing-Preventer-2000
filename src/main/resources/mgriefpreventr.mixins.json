@@ -6,7 +6,8 @@
 		"CreeperMixin",
 		"EndermanPickUpBlockMixin",
 		"EndermanPlaceBlockMixin",
-		"GhastMixin"
+		"GhastMixin",
+		"SilverfishMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "mgriefpreventr",
-	"version": "1.0-beta1",
+	"version": "1.0-beta2",
 	"name": "Monster Griefing Preventer 2000",
 	"description": "Adds gamerules to customise your experience with monster griefing!",
 	"authors": [
